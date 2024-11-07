@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  line-height: 1.5;
 }
 
 html,
@@ -9,4 +10,31 @@ body {
   padding: 0;
 }
 
+
 /* Add styles here! */
+header {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+h1.title {
+  margin-bottom: 40px;
+}
+
+.max-width-wrapper {
+  max-width: 900px;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.intro-chunk p {
+  max-width: 400px;
+}
