@@ -47,6 +47,8 @@ main {
 
 main > section {
   background-color: white;
+  padding-bottom: 24px;
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
 }
 
 .card {
