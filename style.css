@@ -38,3 +38,9 @@ strong {
 .intro-chunk p {
   max-width: 400px;
 }
+
+main {
+  padding: 48px 0;
+  background: hsl(0deg, 0%, 40%);
+  border-top: 8px solid hsl(0deg, 0%, 60%);
+}
